@@ -2,7 +2,7 @@
  Adds in a dot crosshair overlay.
 
 ## Usage
-1. Download the latest release.
+1. Download the latest release from [GitHub Releases](https://github.com/Aetopia/ZetaLoader/releases/latest).
 2. Extract the `.zip` file.
 3. Run `DotCrosshair.exe`.
     This will spawn in a small square onto your display.
