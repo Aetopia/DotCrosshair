@@ -2,14 +2,6 @@
 #include <Windows.h>
 #include <shlobj.h>
 #include <knownfolders.h>
-#include <stdio.h>
-
-LRESULT WndProc(HWND hWnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
-{
-    if (uMsg == WM_CLOSE)
-        PostQuitMessage(0);
-    return DefWindowProcW(hWnd, uMsg, wParam, lParam);
-}
 
 INT wWinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPWSTR lpCmdLine, INT nShowCmd)
 {
